@@ -1,6 +1,6 @@
 	body
 		{
-			background-image:url(Irrigação.jpg);
+			background-image:url(livros.jpg);
 			background-attachment:fixed;
 			background-size:100%;
 			background-repeat:no-repeat;
@@ -23,7 +23,7 @@
 		{
 			font-family:verdana;
 			font-size:20px;
-			background-image:url(centro.jpg);
+			background-image:url(Bege.jpg);
 			
 		}
 
@@ -52,7 +52,7 @@
 
 		.titulocontato
 		{
-			color: red;
+			color: rgb(68, 245, 32);
 		}
 
 		.formulario{
