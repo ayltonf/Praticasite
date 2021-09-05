@@ -1,4 +1,5 @@
-	body
+/*
+body
 		{
 			background-image:url(livros.jpg);
 			background-attachment:fixed;
@@ -35,7 +36,7 @@
 
 		div 
 		{
-			width: 20px
+			width: 100%;
 			height: 20px;
 			display: inline-block;
 		}
@@ -58,3 +59,162 @@
 		.formulario{
 		background-color: rosybrown;
 		}
+*/
+
+	/*novo style copiado do index*/
+
+	   /* body
+		{
+       		 	background-image:url(livros.jpg);
+				background-attachment:fixed;
+				background-size:100%;
+				background-repeat:no-repeat;
+				background-color: rgb(96, 99, 96);
+
+        	}
+
+       		h1{
+			color:rgb(109, 228, 162);
+            		text-align:center;
+        	}
+
+       		p{
+            		font-family:verdana;
+            		font-size:20px;
+        	}
+
+        	form {
+			font-family:verdana;
+            		font-size:20px;
+            		background-image:url(centro.jpg);
+					
+        	}
+
+        	label,input {
+            		margin-bottom: 10px;
+					color: rgb(177, 11, 177);
+        	}
+
+			.menu-h
+			{
+ 					margin: 00 auto;
+ 					padding: 0;
+ 					box-sizing: border-box;
+ 					font-family:verdana;
+					list-style: none;
+					background-color: preto
+			}
+
+
+			
+			#menu-h ul li 
+			{
+					display: inline;
+			}
+
+
+
+			#menu-h ul li a {
+					color: branco;
+					padding: 20px;
+					display: inline-block;
+					text-decoration: none;
+				
+			}
+
+
+			#menu-h ul li a:hover 
+			{
+					background-color: azul
+			}
+
+			#menu-h ul li:last-child a {
+					float: right;
+					background-color: azul
+			}
+
+			
+	*/
+	* {
+			padding:0;
+			margin:0;
+			border:0;
+			vertical-align:baseline;
+			list-style:none;
+		}
+	
+	    body 
+
+			
+		{
+			margin: 0px;
+    	   	background-attachment: fixed;
+    		background-size: 100%;
+			background-image:url(livros.jpg);
+		
+		
+		}
+
+
+		.menu-h ul{
+			display: inline-flex;
+		}
+		.menu-h ul li{
+    
+			padding: 20px;
+		}
+
+		.menu-h ul a{
+			color: white;
+			padding: 10px;
+			text-decoration: none;
+		}
+
+	.menu-h 
+	{
+		background-color: rgb(21, 65, 209);
+		display: block;
+ 	     background-size: 100%;
+
+	}
+
+	.Entrar{
+		text-align:right;
+		color: white;
+		padding-left: 850px;
+		text-decoration: none;
+		display: inline-flex;
+
+	}
+
+	a{
+		color:white;
+		text-decoration:none;
+		
+	}
+
+	h1{
+		text-align: center;
+		color:black;
+	}
+
+	footer{
+		text-align: center;
+		background-color: coral;
+		position: fixed;
+		width: 100%;
+		display: block;
+		bottom: 0px;
+		left: 0px;
+	}
+
+	.exemplostextos{
+		color:rgb(54, 23, 228);
+		padding-left: 10px;
+	}
+
+	.exemplodeimg{
+		padding: 30px;
+		width: 1;
+		height: 20px;
+	}
