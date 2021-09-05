@@ -40,12 +40,12 @@
 			display: inline-block;
 		}
 
-		#container-a 
+		.container-a 
 		{
 			background-color: red;
 		}
 
-		#container-b 
+		.container-b 
 		{
 			background-color: rgb(98, 98, 112);
 		}
